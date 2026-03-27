@@ -40,7 +40,7 @@ app.use(cors({
     origin: [
         process.env.FRONTEND_URL,
         'http://localhost:5173',
-        'https://your-frontend-app.onrender.com' // We'll update this later
+        'https://golflinks-1-frontend.onrender.com' // We'll update this later
     ],
     credentials: true
 }));
